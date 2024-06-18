@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+}
+
+/* 폰트 */
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    color: white;
+}
+
+/* 네비게이션 영역 */
+.navbar,
+.offcanvas {
+    background-color: #000000;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: white !important;
+}
+
+#stickynav {
+    position: sticky;
+    top: 15%;
+}
+
+#offcanvasDarkNavbarLabel {
+    color: white;
+}
+
+
+/* 헤더 */
+#header1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/박찬욱_촬영현장.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+#header2 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/박찬욱_프로필.png);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+
+#header3 {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/헤어질결심_헤더.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+#header4 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/박찬욱_수상.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+#header5 {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/아가씨_헤더.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+
+/* 포스터*/
+.poster img {
+    opacity: 1;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.poster:hover img {
+    opacity: .5;
+}
+
+/* 모달창 영역 */
+.modal-content {
+    background-color: black;
+}
+
+/*시놉시스*/
+.story {
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow
+}
+
+/* 스크롤바 설정 */
+.story::-webkit-scrollbar {
+    width: 5px;
+}
+.story::-webkit-scrollbar-thumb {
+    height: 20%;
+    background: white;
+    border-radius: 10px;
+}
